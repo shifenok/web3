@@ -18,16 +18,16 @@
     "noUncheckedIndexedAccess": true,
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./frontend/src/*"]
+      "~/*": ["./src/*"]
     }
   },
   "include": [
     ".eslintrc.cjs",
     "next-env.d.ts",
-    "./frontend/**/*.ts",
-    "./frontend/**/*.tsx",
-    "./frontend/**/*.cjs",
-    "./frontend/**/*.mjs"
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.cjs",
+    "**/*.mjs"
   ],
   "exclude": ["node_modules"]
 }
